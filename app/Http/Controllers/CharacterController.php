@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Models\Character;
 
+//Views are located at resources/views/character/*
+
 class CharacterController extends Controller
 {
     public function index()
